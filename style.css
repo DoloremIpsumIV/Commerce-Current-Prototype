@@ -129,7 +129,7 @@ footer {
 
 }
 
-.ProductContainer img{
+.ProductContainer img {
     width: 90px;
     height: 90px;
     margin: auto;
@@ -150,4 +150,32 @@ footer {
     margin: auto;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+#prodDescription {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+}
+
+#prodDescription p {
+    margin-right: 10px;
+}
+
+#PurchaseButton {
+    display: grid;
+    margin: 40px 10px 40px 10px;
+
+}
+
+#PurchaseButton button {
+    background-color: rgb(var(--colour-interactive-emphasised-bg-default, 0, 88, 163));
+    cursor: pointer;
+    border-radius: 35px;
+
+}
+
+#PurchaseButton p {
+    color: white;
+    font-size: 20px;
 }
