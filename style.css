@@ -21,7 +21,6 @@ div {
 }
 
 #headerGrid {
-
     display: grid;
     justify-content: space-between;
     grid-template-columns: auto auto auto auto;
@@ -55,7 +54,28 @@ div {
     width: 82%;
 }
 
-header{
+header {
     border-bottom: 2px solid black;
     padding-bottom: 15px;
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+nav div {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 4px;
+    width: 100px;
+    height: 35px;
+}
+
+nav div p {
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
 }
