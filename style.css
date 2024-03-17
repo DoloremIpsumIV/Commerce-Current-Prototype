@@ -2,9 +2,10 @@
     max-width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 html,
 body {
     height: 100%;
@@ -83,20 +84,34 @@ header {
     font-size: x-large;
 }
 
+main {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
 #mainMain {
     padding-top: 15px;
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
 }
-#mainMain a div img{
+
+#mainMain a div img {
     width: 180px;
     height: 180px;
     border: 2px solid black;
     border-radius: 20px;
 }
 
-#mainMain a div p{
+#mainMain a div p {
     color: black;
     margin-top: 0px;
+}
+
+footer {
+    background-color: silver;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
 }
