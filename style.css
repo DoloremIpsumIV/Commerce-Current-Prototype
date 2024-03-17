@@ -399,9 +399,13 @@ footer {
     display: none;
 }
 
+#popupGrid{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
 #Popup p:first-of-type {
     margin: auto;
-    border-bottom: 1px solid black;
 }
 
 #Popup p:nth-child(2) {
