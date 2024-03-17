@@ -382,7 +382,7 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     background-color: white;
     height: fit-content;
     border-top: black 1px solid;
@@ -399,7 +399,7 @@ footer {
     display: none;
 }
 
-#popupGrid{
+#popupGrid {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
@@ -408,7 +408,7 @@ footer {
     margin: auto;
 }
 
-#Close{
+#Close {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 20px;
@@ -417,7 +417,14 @@ footer {
     text-align: center;
 }
 
-#popupContent{
+#popupContent {
     display: grid;
     grid-template-columns: 1fr 2fr 0.5fr;
+}
+
+#glog {
+    display: grid;
+    position: absolute;
+    margin: auto;   
+    justify-self: center;
 }
