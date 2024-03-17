@@ -1,4 +1,5 @@
 let prodNumber = 0;
+let prodElem;
 let storage = [];
 let popup;
 let popupContent;
@@ -9,6 +10,7 @@ function init() {
     let ProdInfo = document.querySelector("#ProdInfo");
     let Review = document.querySelector("#Recensioner");
     popup = document.querySelector("#Popup");
+    prodElem = document.querySelector("#prodNummer");
     let close = document.querySelector("#Close")
     popupContent = document.querySelector("#popupContent")
 
@@ -17,7 +19,11 @@ function init() {
     Review.addEventListener("click", productTab);
     close.addEventListener("click", closePopup);
     popup.classList.add("Hide");
-
+    getCart();
+    prodElem.innerHTML = prodNumber;
+    if (prodNumber == 0) {
+        prodElem.style.display = "none";
+    }
 
 }
 window.addEventListener("load", init);
@@ -33,6 +39,10 @@ function productTab() {
         case "PurchaseButton":
             p.innerHTML = "Lades till i varukorg";
             popupContent.innerHTML = "<div id='glog'><a href='products.html'<div id='PurchaseButton'><button type='button'><p>Fortsätt handla</p></button></a> <a href='cart.html'<div id='PurchaseButton'><button type='button'><p>Till varukorgen</p></button></a></div>"
+            prodNumber++;
+            prodElem.innerHTML = prodNumber;
+            prodElem.style.display = "inline";
+            saveCart();
             break;
         case "ProdInfo":
             p.innerHTML = "Produkt info:";
@@ -53,17 +63,15 @@ function closePopup() {
     popup.classList.add("Hide");
 }
 
+function saveCart() {
+    storage = JSON.stringify(prodNumber);
+    localStorage.setItem("key", storage);
+}
 
-//function saveCart() {
-//    storage = JSON.stringify(hej);
-//    localStorage.setItem("key", storage);
-//}
-//
-//
-//function getCart() {
-//    let savedCart = localStorage.getItem("key");
-//    if (savedCart !== null) {
-//        hej = JSON.parse(savedCart);
-//        hello();
-//    }
-//}
+
+function getCart() {
+    let savedCart = localStorage.getItem("key");
+    if (savedCart !== null) {
+        prodNumber = JSON.parse(savedCart);
+    }
+}
