@@ -2,12 +2,58 @@
     max-width: 100%;
 }
 
-img {
-    width: 65px;
-    height: 65px;
+html,
+body {
+    height: 100%;
 }
 
-.header-grid {
-    
+html,
+body,
+header,
+main,
+aside,
+footer,
+section,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerGrid {
+
+    display: grid;
+    justify-content: space-between;
     grid-template-columns: auto auto auto auto;
+}
+
+#headerGrid img {
+    padding: 5px;
+    width: 55px;
+    height: 65px;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+#headerGrid #Logo {
+    width: 65px;
+    height: 65px;
+    margin: 7px;
+    border-radius: initial;
+    border: none;
+}
+
+#SearchBar {
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 3px 20px 3px 20px;
+    padding-left: 20px;
+    
+}
+#SearchBar img {
+    margin-top: 7px;
+    float: left;
+    width: 35px;
+    height: 35px;
 }
