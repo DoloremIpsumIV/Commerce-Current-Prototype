@@ -350,6 +350,24 @@ footer {
     padding: 10px;
 }
 
-#shippMain{
+#shippMain {
     border: none;
+}
+
+#price {
+    text-decoration: underline;
+}
+
+#paymentForm{
+    margin: 10px;
+   
+}
+
+#PaymenyDiv{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#CV{
+    grid-column: 2;
 }
