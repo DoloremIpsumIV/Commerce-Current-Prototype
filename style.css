@@ -360,7 +360,7 @@ footer {
 
 #paymentForm{
     margin: 10px;
-   
+    display: grid;
 }
 
 #PaymenyDiv{
@@ -370,4 +370,8 @@ footer {
 
 #CV{
     grid-column: 2;
+}
+
+#paymentForm a {
+    margin: auto;
 }
