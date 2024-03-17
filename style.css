@@ -215,3 +215,39 @@ footer {
 .PurchaseOptions p{
     width: 120px;
 }
+
+#Product-Detail{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+#Product-Detail img{
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+}
+
+#Product-Detail p{
+    margin-right: 20px;
+}
+
+#ammount{
+    grid-column: 2;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    margin: auto;
+    padding-left: 20px;
+    height: 40px;
+    padding-bottom: 60px;
+}
+
+#ammount :nth-child(odd){
+    border: 1px black solid;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
