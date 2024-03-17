@@ -180,11 +180,11 @@ footer {
     font-size: 20px;
 }
 
-#ProductExtraInfo{
+#ProductExtraInfo {
     display: grid;
 }
 
-#ProductExtraInfo div{
+#ProductExtraInfo div {
     cursor: pointer;
     display: grid;
     grid-template-columns: auto auto;
@@ -192,4 +192,24 @@ footer {
     border-top: 1px solid black;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.PurchaseOptions{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 30px 20px 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align:left;
+}
+
+.PurchaseOptions img{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 90px;
+}
+
+.PurchaseOptions p{
+    width: 120px;
 }
