@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Current</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="headerGrid">
+            <a href="index.html">
+                <img src="images/Commerce Current.png" alt="Bild på logga Commerce Current" id="Logo">
+            </a>
+        </div>
+    </header>
+    <p>Fyll i information för att för att kunna gå vidare till betalning</p>
+    <p>Ungefärlig Leveranstid: 28 Mars</p>
+    <main id="shippMain">
+        <form id="paymentForm">
+            <label>
+                <p>Namn*</p>
+                <input type="text" id="Name" placeholder="Namn">
+            </label>
+            <label>
+                <p>Efternamn*</p>
+                <input type="text" id="Surname" placeholder="Efternamn">
+            </label>
+            <label>
+                <p>Adress*</p>
+                <input type="text" id="Adress" placeholder="ex: 123 45">
+            </label>
+            <label>
+                <p>Ort*</p>
+                <input type="text" id="Ort" placeholder="Ort">
+            </label>
+            <label>
+                <p>Epost</p>
+                <input type="text" id="Email" placeholder="Exempel@gmail.com">
+            </label>
+            <label>
+                <p>MobilNumber*</p>
+                <input type="text" id="MobileNumber" placeholder="MobilNumber">
+            </label>
+            <br>
+            <a href="payment.html">
+                <input type="submit" value="Fortsätt" id="continue">
+            </a>
+        </form>
+    </main>
+</body>
