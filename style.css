@@ -231,6 +231,7 @@ footer {
 
 #Product-Detail p {
     margin-right: 20px;
+    margin-top: 8px;
 }
 
 #ammount {
@@ -257,4 +258,22 @@ footer {
     display: grid;
     text-align: center;
     border-top: 1px solid black;
+}
+
+#DeliveryContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    border-top: 1px black solid;
+}
+
+#DeliveryContainer :nth-child(1){
+    width: 210px;
+}
+
+#DeliveryContainer :nth-child(2){
+    text-decoration: underline;
+    text-align: right;
 }
