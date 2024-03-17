@@ -31,13 +31,17 @@ function productTab() {
     switch (this.id) {
         case "PurchaseButton":
             p.innerHTML = "Lades till i varukorg";
-            popupContent.innerHTML = "";
             break;
         case "ProdInfo":
             p.innerHTML = "Produkt info:";
+            popupContent.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took"
             break;
         case "Recensioner":
             p.innerHTML = "Recensioner:";
+            popupContent.innerHTML = " <img><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>2,1</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML += " <img src='images/datorntorn.jpg' alt='bild på dator torn'><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>4,3</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML += " <img><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>5</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML += " <img><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>3</p><img src='images/stjärna.png'></div>"
             break;
     }
 }

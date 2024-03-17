@@ -404,16 +404,20 @@ footer {
     padding-bottom: 5px;
 }
 
-#Popup p:first-of-type {
+#hell {
     margin: auto;
 }
 
-#Popup p:nth-child(2) {
+#Close{
     cursor: pointer;
     border: 1px solid black;
     border-radius: 20px;
     margin: auto;
     width: 20px;
     text-align: center;
+}
 
+#popupContent{
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
 }
