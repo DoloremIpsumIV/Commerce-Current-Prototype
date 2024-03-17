@@ -97,8 +97,8 @@ main {
 }
 
 #mainMain a div img {
-    width: 180px;
-    height: 180px;
+    width: 165px;
+    height: 165px;
     border: 2px solid black;
     border-radius: 20px;
 }
@@ -113,5 +113,5 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 35px 20px 35px;
 }
