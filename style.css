@@ -358,20 +358,58 @@ footer {
     text-decoration: underline;
 }
 
-#paymentForm{
+#paymentForm {
     margin: 10px;
     display: grid;
 }
 
-#PaymenyDiv{
+#PaymenyDiv {
     display: grid;
     grid-template-rows: auto auto;
+    margin: 5px;
 }
 
-#CV{
+#CV {
     grid-column: 2;
+    width: 90px;
 }
 
 #paymentForm a {
     margin: auto;
+}
+
+#Popup {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 300px;
+    background-color: white;
+    height: fit-content;
+    border-top: black 1px solid;
+    padding-top: 5px;
+}
+
+#popupGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.Hide {
+    display: none;
+}
+
+#Popup p:first-of-type {
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+#Popup p:nth-child(2) {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    width: 20px;
+    text-align: center;
+
 }
