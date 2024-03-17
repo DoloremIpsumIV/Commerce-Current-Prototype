@@ -7,6 +7,7 @@
     <title>Commerce Current</title>
     <link rel="stylesheet" href="style.css">
     <script src="cartStyle.js"></script>
+    <script src="cartFunction.js"></script>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
         </form>
     </header>
 
-    <main>
+    <main id="cartMain">
         <p>Här kan du välja mellan att leverera eller att hämta produkter på varuhus</p>
         <a class="PurchaseOptions" href="delivery.html">
             <img src="images/Lastbil.png" alt="bild på Lastbil">
@@ -48,13 +49,13 @@
                 industry's standard dummy text ever since the 1500s, when an unknown printer took
             </p>
             <div id="ammount">
-                <p>
+                <p id="remove">
                     -
                 </p>
-                <p>
+                <p id="numba">
                     1
                 </p>
-                <p>
+                <p id="add">
                     +
                 </p>
             </div>
