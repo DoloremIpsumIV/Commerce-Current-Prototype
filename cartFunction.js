@@ -19,19 +19,19 @@ function init() {
 }
 window.addEventListener("load", init);
 
-function plus(){
+function plus() {
     prodNumber += 1;
     prodElem.innerHTML = prodNumber;
     numba.innerHTML = prodNumber;
     saveCart();
 }
 
-function subtract(){
+function subtract() {
     console.log("bruh")
-    if(prodNumber == 1){
+    if (prodNumber == 1) {
         return;
     }
-    else{
+    else {
         prodNumber -= 1;
         prodElem.innerHTML = prodNumber;
         numba.innerHTML = prodNumber;
