@@ -23,10 +23,41 @@
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took
-        </p>    
+        </p>
     </div>
     <div id="DeliveryContainer">
         <p>Här kan du välja mellan om du vill hämta upp själv eller om du vill hämta i en av våra varuhus</p>
-        <p>299kr</p>
+        <p>Pris</p>
     </div>
+    <form>
+        <label for="Leverans" class="label">
+            <div class="choice">
+                <input type="radio" name="delivery" id="Leverans">
+                <img src="images/Lastbil.png">
+                <p>Leverans</p>
+            </div>
+            <div>
+                <p>Kostar lite mer men få det hemlevereratt</p>
+                <p>399kr</p>
+            </div>
+        </label>
+        <label for="Varuhus" class="label">
+            <div class="choice">
+                <input type="radio" name="delivery" id="Varuhus">
+                <img src="images/Varuhus.png">
+                <p>Varuhus</p>
+            </div>
+            <div>
+                <p>Billigare men du måste hämt upp på vårt varuhus</p>
+                <p>299kr</p>
+            </div>
+        </label>
+        <div id="PurchaseButton">
+            <button type="button">
+                <a href="shipping.html"><p>Fortsätt</p></a>
+            </button>
+        </div>
+    </form>
+
+
 </body>
