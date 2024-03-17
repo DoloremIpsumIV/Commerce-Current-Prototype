@@ -53,5 +53,9 @@ div {
     padding-bottom: 5px;
     align-self: center;
     width: 82%;
-    
+}
+
+header{
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
 }
