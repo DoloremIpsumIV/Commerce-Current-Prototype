@@ -2,8 +2,7 @@ let prodNumber = 0;
 let prodElem;
 let storage = [];
 function init() {
-    popupContent = document.querySelector("#popupContent")
-    popup.classList.add("Hide");
+    prodElem = document.querySelector("#prodNummer");
     getCart();
     prodElem.innerHTML = prodNumber;
     if (prodNumber == 0) {
