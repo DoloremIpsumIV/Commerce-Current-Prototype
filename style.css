@@ -2,6 +2,9 @@
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
 html,
 body {
     height: 100%;
@@ -59,14 +62,14 @@ header {
     padding-bottom: 15px;
 }
 
-nav {
+#mainNav {
     padding-top: 15px;
     display: flex;
     border-bottom: 2px solid black;
     padding-bottom: 15px;
 }
 
-nav div {
+#mainNav div {
     border: 2px solid black;
     border-radius: 10px;
     margin: 4px;
@@ -74,8 +77,26 @@ nav div {
     height: 35px;
 }
 
-nav div p {
+#mainNav div p {
     text-align: center;
     margin: auto;
     font-size: x-large;
+}
+
+#mainMain {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+#mainMain a div img{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#mainMain a div p{
+    color: black;
+    margin-top: 0px;
 }
