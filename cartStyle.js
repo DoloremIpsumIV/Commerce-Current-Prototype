@@ -3,6 +3,9 @@ let prodElem;
 let storage = [];
 function init() {
     prodElem = document.querySelector("#prodNummer");
+    if(prodElem == null){
+        return;
+    }
     getCart();
     prodElem.innerHTML = prodNumber;
     if (prodNumber == 0) {
