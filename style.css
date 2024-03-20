@@ -387,7 +387,7 @@ footer {
 #Popup {
     position: fixed;
     bottom: 0px;
-    width: 380px;
+    width: 374px;
     padding-bottom: 400px;
     background-color: white;
     height: fit-content;
@@ -446,13 +446,18 @@ footer {
     text-align: center;
 }
 
-body{
+body {
     border: 3px solid black;
     border-radius: 30px;
 
 }
 
-html{
+html {
     max-width: 380px;
     margin: 0 auto;
+}
+
+#prodinfocss {
+    grid-column: 1/ 3;
+    margin-bottom: -100px;
 }

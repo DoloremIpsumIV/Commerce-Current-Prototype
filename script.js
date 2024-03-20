@@ -47,14 +47,14 @@ function productTab() {
         case "ProdInfo":
             p.innerHTML = "Produkt info:";
             popup.style.paddingBottom = "200px"
-            popupContent.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took"
+            popupContent.innerHTML = "<p id='prodinfocss'>Elevate your cooking skills with our comprehensive cookbook designed specifically for students. Whether you're a novice in the kitchen or looking to expand your culinary repertoire, this book has everything you need to whip up tasty and nutritious meals on a student budget. From quick and simple recipes for busy weekdays to impressive dishes for entertaining friends, each recipe is carefully crafted with affordability, convenience, and flavor in mind. With step-by-step instructions and helpful tips on meal planning, grocery shopping, and kitchen essentials, cooking has never been easier or more enjoyable. Say goodbye to boring microwave dinners and hello to culinary excellence with our student-friendly cookbook. </p>"
             break;
         case "Recensioner":
             popup.style.paddingBottom = "50px"
             p.innerHTML = "Recensioner:";
-            popupContent.innerHTML = " <img><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>2,1</p><img src='images/stjärna.png'></div>"
-            popupContent.innerHTML += " <img src='images/bok.jpg' alt='bild på dator torn'><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>4,3</p><img src='images/stjärna.png'></div>"
-            popupContent.innerHTML += " <img><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took</p><div class='rating'><p>5</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML = " <img><p>As a busy student with little cooking experience, this cookbook has been a lifesaver! The recipes are easy to follow, and the ingredients are affordable. I've already impressed my friends with several dishes. Highly recommend!</p><div class='rating'><p>4,1</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML += " <img src='images/bok.jpg' alt='bild på dator torn'><p>This cookbook is a game-changer for anyone living on a tight budget. The recipes are delicious, and I love how they include tips on saving money while grocery shopping. It's definitely helped me eat healthier without breaking the bank.</p><div class='rating'><p>4,3</p><img src='images/stjärna.png'></div>"
+            popupContent.innerHTML += " <img><p>I'm not the most confident cook, but this cookbook has given me the skills and confidence to experiment in the kitchen. The recipes are clear and concise, and I appreciate the variety of dishes included. It's become my go-to resource for meal ideas.</p><div class='rating'><p>5</p><img src='images/stjärna.png'></div>"
             break;
     }
 }
