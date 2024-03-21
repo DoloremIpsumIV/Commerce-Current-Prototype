@@ -302,7 +302,6 @@ footer {
 
 .label :nth-child(2) p:last-of-type {
     text-decoration: underline;
-    margin-right: 15px;
 }
 
 .choice {
