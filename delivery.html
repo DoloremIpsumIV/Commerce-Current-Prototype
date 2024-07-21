@@ -19,7 +19,7 @@
             </a>
         </div>
     </header>
-    <p>Din beställning kommer att levereras till den plats du valt inom som mest 5* arbetsdagar</p>
+    <p id="deliveryP">Din beställning kommer att levereras till den plats du valt inom som mest 5* arbetsdagar</p>
     <div id="Product-Detail">
         <img src="images/bok.jpg">
         <p>
@@ -56,11 +56,13 @@
             </div>
         </label>
         <div id="PurchaseButton">
-            <button type="button">
-                <a href="shipping.html">
+            <a href="shipping.html" tabindex="0" id="shippingBtn">
+
+            <button type="button" tabindex="-1">
                     <p>Fortsätt</p>
-                </a>
             </button>
+        </a>
+
         </div>
     </form>
 

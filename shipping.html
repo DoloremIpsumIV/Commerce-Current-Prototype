@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commerce Current</title>
     <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
 </head>
 
 <body>
@@ -16,8 +17,8 @@
             </a>
         </div>
     </header>
-    <p>Fyll i information för att för att kunna gå vidare till betalning</p>
-    <p>Ungefärlig Leveranstid: 28 Mars</p>
+    <p class="formText">Fyll i information för att för att kunna gå vidare till betalning</p>
+    <p class="formText">Ungefärlig Leveranstid: 28 Mars</p>
     <main id="shippMain">
         <form id="ShippingForm" action="payment.html">
             <label>
@@ -45,9 +46,7 @@
                 <input type="text" id="MobileNumber" placeholder="MobilNumber">
             </label>
             <br>
-            <a href="payment.html">
                 <input type="submit" value="Fortsätt" id="continue">
-            </a>
         </form>
     </main>
 </body>

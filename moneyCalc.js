@@ -1,4 +1,5 @@
 function init() {
+   
    let prisElem = document.querySelectorAll(".priceTag");
    getCart();
    if (prisElem.length >= 1){

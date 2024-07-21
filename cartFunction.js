@@ -12,21 +12,30 @@ function init() {
     }
     else {
         numba.innerHTML = prodNumber;
+
         add.addEventListener("click", plus);
+        add.addEventListener("keydown", plus);
         remove.addEventListener("click", subtract);
+        remove.addEventListener("keydown", subtract);
+
     }
 
 }
 window.addEventListener("load", init);
 
-function plus() {
+function plus(event) {
+    if (event.type === 'click' || (event.type === 'keydown' && event.key === 'Enter')) {
+
     prodNumber += 1;
     prodElem.innerHTML = prodNumber;
     numba.innerHTML = prodNumber;
     saveCart();
+    }
 }
 
-function subtract() {
+function subtract(event) {
+    if (event.type === 'click' || (event.type === 'keydown' && event.key === 'Enter')) {
+
     console.log("bruh")
     if (prodNumber == 1) {
         return;
@@ -37,4 +46,5 @@ function subtract() {
         numba.innerHTML = prodNumber;
         saveCart();
     }
+}
 }
